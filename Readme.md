@@ -13,12 +13,15 @@ So far, we have used javascript to do some math and work with some data. Today, 
 Let’s start with a little example, to give you a taste of the power of javascript before getting into the nitty-gritty of the DOM.
 
 1. Go to https://twitter.com/taylorswift13
-2. Open the console
-3. Run these two statements, with your name:
+2. Open the console using <kbd>Command</kbd>+<kbd>Option</kbd>+<kbd>j</kbd>
+3. Run these two statements, with replacing `Your Name` with, you guessed it, your name:
+4. Look at the tweets Taylor has sent out very closely
+
 ```javascript
 names = $('.fullname');
 names.text('Your Name');
 ```
+
 BAM! You are a twitter master! How cool are you! So popular!
 
 Now, how did that work?
