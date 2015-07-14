@@ -15,12 +15,13 @@ Let’s start with a little example, to give you a taste of the power of javascr
 1. Go to https://twitter.com/taylorswift13
 2. Open the console using <kbd>Command</kbd>+<kbd>Option</kbd>+<kbd>j</kbd>
 3. Run these two statements, with replacing `Your Name` with, you guessed it, your name:
-4. Look at the tweets Taylor has sent out very closely
-
 ```javascript
 names = $('.fullname');
 names.text('Your Name');
 ```
+4. Look at the tweets Taylor has sent out very closely
+
+
 
 BAM! You are a twitter master! How cool are you! So popular!
 
@@ -49,20 +50,17 @@ Javascript can speak the browser’s language - it IS the browser’s language. 
 
 Let’s look a little bit more closely at the code we ran to change twitter:
 
+```javascript
 names = $('.fullname');
 names.text('Your Name');
+```
 
-First, we are getting all the elements with a particular class, “fullname”, and assigning an array of all of those elements to the variable `names`. Remember, variables store data, and an array is a way to store a list of data. What’s new is the $('.fullname') syntax. .
+`names` is a new variable. We use the selector syntax `$()` to get all the elements with a particular class, “fullname”. This is stored as an array within the `names` variable.
 
-That syntax is a shorthand way to let us select elements on the page. It lets us use the css selectors that we learned on monday to select elements with javascript. Instead of applying styles to them like we would in CSS, we can change, add, and remove elements on the fly - just like we did in the twitter example.
-
-
-
-
-Once we have all the elements we want, we can update them with another new method - .text(). This method gives us the text inside the element, or updates it if we pass in a new string. It will update the text on all of the elements in our array with the new text - in this case, your name!
+Once we have all the elements we want, we can update them with another new method - `.text()`. This method accesses the  text inside an element. Since we passed the .text method a string - 'Your Name'-  all the text inside every element in the `names` array was changed to 'Your Name'
 
 Try selecting other html elements on the page and updating their text! What happens?
 
-The selector syntax - $() - and the .text() method actually aren't part of the javascript baked into the browser. They actually come from the jQuery library - a big, commonly used set of useful javascript functions. In order to use this syntax on our pages, we'll need to link up to a javascript library.
+The selector syntax - $() - and the .text() method actually aren't part of the javascript baked into the browser. They actually come from the **jQuery library** - a big, commonly used set of useful javascript functions. In order to use this syntax on our pages, we'll need to link up to a javascript library.
 
-PS. While the names of the methods like .text() make sense when you read them, you probably can't figure them out by guessing. Instead, you can look up all the available methods in the online documentation. If you want to do something specific, it’s usually faster to search for it on google, and check for good StackOverflow answers than try to guess the method name yourself.
+
