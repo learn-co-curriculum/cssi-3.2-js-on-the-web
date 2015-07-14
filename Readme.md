@@ -14,11 +14,11 @@ Let’s start with a little example, to give you a taste of the power of javascr
 
 1. Go to https://twitter.com/taylorswift13
 2. Open the console using <kbd>Command</kbd>+<kbd>Option</kbd>+<kbd>j</kbd>
-3. Run these two statements, with replacing `Your Name` with, you guessed it, your name:
-```javascript
-names = $('.fullname');
-names.text('Your Name');
-```
+3. Run these two statements, with replacing 'Your Name' with, you guessed it, your name:
+  * `names = $('.fullname');`
+
+  * `names.text('Your Name');`
+
 4. Look at the tweets Taylor has sent out very closely
 
 
@@ -44,7 +44,7 @@ Your browser keeps all of the elements of the webpage in a tree structure called
 ```
 A way to visualize the DOM for that table would be:
 
-![Tree representation of the elements above]()
+![Tree representation of the elements above](http://i.imgur.com/8fj2Uka.png)
 
 Javascript can speak the browser’s language - it IS the browser’s language. It is AWESOME for picking elements on a webpage and doing something to them - like picking all the elements on the twitter page and changing them to my name.
 
