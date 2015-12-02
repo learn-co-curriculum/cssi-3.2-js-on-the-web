@@ -60,3 +60,5 @@ Try selecting other html elements on the page and updating their text! What happ
 The selector syntax - $() - and the .text() method actually aren't part of the JavaScript baked into the browser. They actually come from the **jQuery library** - a big, commonly used set of useful JavaScript functions. In order to use this syntax on our pages, we'll need to link up to a JavaScript library.
 
 
+
+<a href='https://learn.co/lessons/cssi-3.2-js-on-the-web' data-visibility='hidden'>View this lesson on Learn.co</a>
